@@ -13,3 +13,9 @@ source='D:\\psth\\to\\XML\\location\\on Server\\'
 destination = 'D:\\path\\to\\move\\location\\'
 
 REMOTEFOLDER = "/path to xml files on servers/"
+
+two main class develop with belo descriptions:
+
+class XMLDownloader: for connect to ftp, list directories and files and download files with data filter(filter data to download just today or any desire date downloading)
+
+classRegion_XML_Copy: for filter data wich indicate in EP and moving them to destination folder
